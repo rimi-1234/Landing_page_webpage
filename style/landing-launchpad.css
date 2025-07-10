@@ -1,0 +1,141 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1000vh;
+    background-color: #F5F8FF;
+}
+/*shared resoures*/
+.primary-color{
+    color:#4E47FF;
+}
+.secondary-color{
+    color: #252432;
+}
+header{
+    background-image: url(/Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+   
+    
+}
+.btn-primary{
+    width: 132px;
+    height: 48px;
+    color:  #ffffff;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 140px;
+    height: 133px;
+}
+.logo{
+    font-size: 34px;
+    font-weight: bolder;
+}
+.banner-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 995px;
+    text-align: center;
+    margin: 170px 200px;
+}
+.banner-tittle{
+    font-weight: bold;
+    font-size: 65px;
+    padding-bottom: 20px;
+}
+.action-section{
+    display: flex;
+    background-color: #F5F8FF;
+    margin: 116px 159px 116px 141px;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-content{
+    height: 60px;
+    width: 517px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.btn-second{
+    width: 200px;
+     height: 48px;
+    color:  #ffffff;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+   
+  
+
+
+.about-tittle{
+    font-size: 32px;
+    font-weight: bold;
+}
+.about-describtion{
+    font-weight: 400;
+    font-size: 16px;
+}
+.action-section img{
+    border-radius: 48px;
+}
+.productive-users-section{
+    max-width: 1140px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(78, 71, 255, 0.1);
+    margin: 63px 173px 0px 127px;
+    gap: 40px;
+     border-radius: 24px;
+}
+.productive-users-section-tittle {
+    font-weight: bold;
+}
+.user-iteam{
+    display: flex;
+    gap: 158px;
+   
+}
+.user-iteam  .user-count{
+      font-size: 80px;
+      font-weight: bold;
+}
+.user-iteam .user-active{
+    font-weight: 400;
+    font-size: 20px;
+}
