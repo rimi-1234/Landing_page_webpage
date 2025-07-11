@@ -23,7 +23,7 @@ body{
     color: #252432;
 }
 header{
-    background-image: url(../Assets/hero-bg.png);
+    background-image: url(../hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
