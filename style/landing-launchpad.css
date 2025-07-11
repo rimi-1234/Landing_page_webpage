@@ -191,3 +191,28 @@ nav{
     color:#252432 ;
     font-weight: bold;
 }
+.focus-section{
+    margin: 150px 135px 0 135px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 71px 150px;
+    gap: 20px;
+    border-radius: 14px;
+    
+
+}
+.focus-section-tittle{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+}
+.focus-section-describion{
+    color:rgba(0, 0, 0, 0.5);
+}
+.focus-section img{
+    height:370px;
+    width: 840px;
+    border-radius: 48px;
+}
